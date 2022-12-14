@@ -1,84 +1,72 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Header from './components/Header';
+let botInvite = 'https://discord.com/api/oauth2/authorize?client_id=1030807295661187163&permissions=8&scope=bot%20applications.commands';
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    <div className="h-screen bg-black text-white">
       <Head>
-        <title>Create Next App</title>
+        <title>Nuctorno</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Header /> 
+      <main className='pt-[25px] h-[160vh]'>
+        <div id='div' className='text-6xl font-bold text-center'>
+        <div>
+  <span>ITS TIME TO</span>
+  <br></br>
+  <span id="L">U</span>
+  <span id="I">P</span>
+  <span id="G">G</span>
+  <span id="H">R</span>
+  <span id="T">A</span>
+  <span id="I">D</span>
+  <span id="T">E</span>
+</div>
+        </div>
+        <div className='pt-[100px] px-[150px]'>
+          <h1 className='text-4xl font-bold'>Start Improving Your Server</h1>
+          <div className='pt-[10px] font-medium'>
+          <p className='text-gray-500'>Nuctorno will try improve your server and user</p>
+          <p className='text-gray-500'>experiance to the max. Nuctorno strives to make your</p>
+          <p className='text-gray-500'>server a fun and safe enviorment!</p>
+          </div>
+          <div className='pt-[10px]'>
+          <a href={botInvite}><button className='w-[200px] h-[40px] rounded-full bg-white text-black text-center hover:bg-black hover:border-2 hover:translate-y-[-2px] hover:border-white hover:text-white transition duration-500 ease-in-out'>invite</button></a>
+          <a href='https://discord.gg/Fwy6M9HNTs' className='ml-4'><button className='w-[200px] h-[40px] rounded-full bg-white text-black text-center hover:bg-black hover:border-2 hover:translate-y-[-2px] hover:border-white hover:text-white transition duration-500 ease-in-out'>View More</button></a>
+          </div>
+        </div>
 
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
-          </a>
-        </h1>
+{/*news*/}
 
-        <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="rounded-md bg-gray-100 p-3 font-mono text-lg">
-            pages/index.tsx
-          </code>
-        </p>
+        <div className='font-bold text-center text-black pt-[460px]'>
+          <h1 className='text-5xl'>Whats New?</h1>
+        </div>
 
-        <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and its API.
-            </p>
-          </a>
+        <div className='px-[75px] pt-[60px]'>
+        <a href='https://proxy-studios.vercel.app/' className='inline-block'>  <div className='w-[500px] h-[500px] rounded-lg bg-[url(https://cdn.discordapp.com/icons/1034461452746104862/9275fabc3fe75b3abcfb613de918fb75.webp?size=1024)] bg-cover hover:translate-y-[-5px] transition duration-200 ease-in-out'>
+            <div className='px-[20px] pt-[400px]'>
+              <h1 className='text-3xl font-bold'>New Website For Our Team</h1>
+              <p className='text-gray-500'>
+                The PROXY STUDIOS team, have created a new website check it out!
+              </p>
+            </div>
+         </div>
+         </a>
 
-          <a
-            href="https://nextjs.org/learn"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+         <a href='/blog/theglitch' className='inline-block ml-20'>  <div className='w-[500px] h-[500px] rounded-lg bg-[url(https://wallpapersmug.com/download/3840x2160/a34fb3/glitch-art-lines-curvy-abstract-4k.jpg)] bg-cover hover:translate-y-[-5px] transition duration-200 ease-in-out'>
+            <div className='px-[20px] pt-[430px]'>
+              <h1 className='text-3xl font-bold'>The GLITCH</h1>
+              <p className='text-gray-500'>
+                Something is happening to the bot? What? Read more...
+              </p>
+            </div>
+         </div>
+         </a>
         </div>
       </main>
-
-      <footer className="flex h-24 w-full items-center justify-center border-t">
-        <a
-          className="flex items-center justify-center gap-2"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-        </a>
-      </footer>
     </div>
   )
 }
