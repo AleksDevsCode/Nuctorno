@@ -10,6 +10,12 @@ const Home: NextPage = () => {
       <Head>
         <title>Nuctorno</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="og:site_name" content=""> </meta>
+<meta name="twitter:title" content="Nuctorno"></meta>
+<meta name="twitter:description" content="Nuctorno - The everything bot"></meta>
+<meta name="twitter:image" content="https://cdn.discordapp.com/avatars/1030807295661187163/9e3497c594db10441dade5d5d076010f.webp?size=80"></meta>
+<meta name="og:image" content="https://cdn.discordapp.com/avatars/1030807295661187163/9e3497c594db10441dade5d5d076010f.webp?size=80"></meta>
+<meta content="Nuctorno will try improve your server and user experiance to the max. Nuctorno strives to make your server a fun and safe enviorment!" property="og:description"></meta>
       </Head>
       <Header /> 
       <main className='pt-[25px] h-[160vh]'>
