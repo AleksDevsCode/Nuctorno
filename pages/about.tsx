@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   return (
     <div className="bg-[url(https://static1.squarespace.com/static/5fe4caeadae61a2f19719512/5fe5c3a9d85eb525301180ed/5ff082ae17af6f5d1930e6bf/1610530333403/Wallpaper+engine+4k.png?format=1500w)] bg-cover h-screen text-white">
       <Head>
-        <title>Apex websites</title>
+        <title>Apex Bots</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header /> 
