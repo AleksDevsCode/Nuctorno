@@ -28,7 +28,7 @@ const Home: NextPage = () => {
 <nav className=" px-2 sm:px-4 py-2.5 bg-black bg-opacity-50">
   <div className="container flex flex-wrap items-center justify-between mx-auto">
     <a href="/" className="flex items-center">
-        <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">NUCTORNO</span>
+        <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">APEX WEBSITES</span>
     </a>
     <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
       <span className="sr-only">Open main menu</span>
@@ -40,13 +40,10 @@ const Home: NextPage = () => {
         <a href="/" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-secondary md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent transition duration-200 ease-in-out">Home</a>
         </li>
         <li>
-          <a href="/commands" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-secondary md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent transition duration-200 ease-in-out">Commands</a>
+          <a href="/commands" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-secondary md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent transition duration-200 ease-in-out">About</a>
         </li>
         <li>
-        <a href="/shop" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-secondary md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent transition duration-200 ease-in-out">Shop</a>
-        </li>
-        <li>
-        <a href="https://discord.gg/Fwy6M9HNTs" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-secondary md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent transition duration-200 ease-in-out">Support</a>
+        <a href="https://discord.gg/E6q2yZw5pg" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-secondary md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent transition duration-200 ease-in-out">Hire</a>
         </li>
               </ul>
     </div>
