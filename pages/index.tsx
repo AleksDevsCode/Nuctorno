@@ -14,7 +14,7 @@ const Home: NextPage = () => {
       <Header /> 
       <main className='pt-[25px]'>
         <div className='px-[100px]'>
-          <h1 className='font-bold text-5xl'>Create a stunning website!</h1>
+          <h1 className='font-bold text-5xl'>Enchance your servers experiance!</h1>
           <p className='pt-[10px] font-medium'>Looking for a custom Discord bot to streamline your server and enhance your community's</p>
           <p className='font-medium'>experience? You've come to the right place! Our team of skilled developers is here to help</p>
           <p className='font-medium'>you create a bot that perfectly fits your needs.</p>
